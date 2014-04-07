@@ -1,0 +1,16 @@
+{
+  "name": "indent",
+  "version": "0.0.0",
+  "description": "Indents a string.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airportyh/indent.git"
+  },
+  "keywords": [
+    "string",
+    "indentation"
+  ],
+  "author": "Toby Ho",
+  "license": "MIT"
+}
