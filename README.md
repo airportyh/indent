@@ -1,7 +1,6 @@
-Indent
-======
+# Indent
 
-Indents a string.
+Indent a string.
 
 ## Install
 
@@ -12,12 +11,14 @@ npm install indent
 ## Usage
 
 ```js
-var ident = require('indent')
+var indent = require('indent');
 
-indent('hello\nworld')
-// => '  hello\n  world'
+indent('hello\nworld', 2);
+// "  hello\n  world"
 
-// specify amount
-indent('hello\nworld', '    ')
-// => '    hello\n    world'
+indent('hello\nworld', '  ');
+// "  hello\n  world"
+
+indent('hello\nworld', '\t');
+// "\thello\n\tworld"
 ```
