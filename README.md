@@ -19,6 +19,9 @@ indent('hello\nworld', 2);
 indent('hello\nworld', '  ');
 // "  hello\n  world"
 
+indent('hello\nworld');
+// "  hello\n  world"
+
 indent('hello\nworld', '\t');
 // "\thello\n\tworld"
 ```

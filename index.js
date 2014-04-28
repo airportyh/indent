@@ -10,8 +10,9 @@ var assert = require('assert');
  */
 
 module.exports = function indent(string, w){
+  if (1 == arguments.length) w = 2;
   assert('string' == typeof string);
   assert('string' == typeof w || 'number' == typeof w);
-  if ('number' == typeof w) w = new Array(n + 1).join(' ');
-  return string.replace(/^/m, w || '');
+  if ('number' == typeof w) w = new Array(w + 1).join(' ');
+  return string.replace(/^/mg, w);
 };
