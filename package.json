@@ -12,5 +12,8 @@
     "indentation"
   ],
   "author": "Toby Ho",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
 }
