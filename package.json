@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "Toby Ho",
   "devDependencies": {
-    "mocha": "^1.18.2"
+    "mocha": "^2.2.1"
   },
   "keywords": [
     "string",
